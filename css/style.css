@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+
+
+
+
+:root{
+	--color-marca:#fa2576;
+	--color-fondo2: #FAFAFA;
+	--color-hs: #F80561;
+	
+}
+
+
+
+
+
+body{
+	
+	font-family: nunito;
+	font-size: 18px;
+	color: var(--color-marca);
+	
+}
+
+
+
+
+
+
+header{
+	background-color: var(--color-marca);
+	color: #fff;
+	font-family: nunito;
+	position: relative;
+	z-index: 20;
+}
+
+
+
+
+
+.content{
+	text-align: center;
+	
+}
+
+.content h2{
+	font-size: 160px;
+	color: var(--color-marca);
+	
+}
+
+
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-color: #fafafa;
+	position: relative;
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	
+	
+}
+
+@media (min-aspect-ratio:16/9){
+	.back-video{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+@media (max-aspect-ratio:16/9){
+	.back-video{
+		width: auto;
+		height: 100%;
+	}
+}
+
+
+.navbar-brand img{
+	width: 150px;
+}
+
+
+
+
+
+
+
+#hero{
+	
+	background-color: #FFFFFF;
+	padding: 20px 0;
+	position: relative;
+	z-index: 20;
+	
+}
+
+#hero h1{
+	background-color: var(--color-marca);
+	border-radius: 50px; 
+	text-align: center;
+	color: #FFFFFF;
+	background-size: 10px;
+}
+
+#hero p{
+	padding-top: 20px;
+}
+
+
+#hero h3{
+	
+	text-align: center;
+	font-family: "Oleo Script", system-ui; 
+	font-size: 90px;
+	color: var(--color-hs);
+	padding-top: 60px;
+	letter-spacing: -4px;
+}
+
+
+#herog {
+	
+	background-image: url("../img/pexels-designecologist-1779487.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	color: #fff;
+	text-align: center;
+	
+}
+
+#herog h1{
+	background-color: rgba(100,49,68,0.84);
+	border-radius: 20px;
+	font-size: 60px;
+}
+
+
+
+
+
+
+#graphics{
+	
+	padding: 70px;
+	
+}
+
+#graphics h3{
+	font-size: 20px;
+	font-weight: 10;
+	padding: 15px;
+}
+
+
+#graphics .short, .cut {
+	
+	padding-top: 90px;
+}
+
+#graphics .just{
+	
+	padding-top: 40px;
+	
+}
+
+
+
+
+
+
+#textme{
+	background-image: url("../img/pexels-karolina-grabowska-4498038.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+
+#textme h1{
+	
+	text-align: center;
+	color: #fff;
+	background-color: rgba(199,4,78,0.92);
+	border-radius: 20px;
+	
+}
+
+
+
+
+
+
+#contact-form{
+	
+	padding: 80px;
+	
+}
+
+#contact-form .btn{
+	background-color: var(--color-marca);
+	color: #fff;
+	
+}
+
+#contact-form h2{
+	
+	color: var(--color-hs);
+}
+
+
+
+
+
+
+
+#values{
+	background-color: var(--color-fondo2);
+	padding: 30px 0;
+}
+
+#values h2{
+	font-family: "Oleo Script", system-ui;
+	font-size: 80px;
+	color: var(--color-hs);
+	padding-top: 140px;
+	letter-spacing: -4px;
+}
+
+#values img{
+	width: 500px;
+}
+
+#values .btn{
+	
+	background-color: var(--color-marca);
+}
+
+
+
+
+
+
+
+
+#services{
+	background-color: #FFFFFF ;
+	color: #000000;
+	padding: 40px 0;
+}
+
+
+#services img{
+	width: 200px;
+}
+
+
+#services h2{
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0;
+	color: var(--color-hs);
+}
+
+
+
+
+
+
+
+#clientshero{
+	background-image: url("../img/pexels-maumascaro-5276484.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 140px;
+	
+	
+}
+
+#clientshero h1{
+	text-align: center;
+	font-size: 40px;
+	background-color: rgba(181,4,71,0.79);
+	color: #fff;
+	border-radius: 20px;
+	
+}
+
+
+
+
+
+
+#opinion{
+	
+	padding: 55px 0;
+	
+	
+}
+
+#opinion h3{
+	
+	font-family: "Oleo Script", system-ui;
+	color: var(--color-hs);
+	font-size: 50px;
+	
+}
+
+
+
+
+
+
+#perlas{
+	padding: 45px;
+}
+
+#perlas img{
+	width: 450px;
+}
+
+#perlas h2{
+	text-align: center;
+	font-size: 45px;
+	font-family: "Oleo Script", system-ui;
+	color: var(--color-hs);
+	padding-bottom: 40px;
+}
+
+
+
+#donatos{
+	padding: 45px;
+	background-color: var(--color-fondo2);
+	
+}
+
+#donatos img{
+	width: 450px;
+	padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+#cristo{
+	padding: 45px;
+	
+}
+
+#cristo img{
+	width: 500px;
+}
+
+
+
+
+
+
+
+#filmminghero{
+	background-image: url("../img/pexels-maumascaro-5277637.jpg");
+	padding: 120px;
+	
+	
+}
+
+#filmminghero h1{
+	background-color: rgba(208,208,208,0.89);
+	color: var(--color-marca);
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+#cascada{
+	padding: 50px;
+	text-align: center;
+	background-color: var(--color-fondo2);
+}
+
+#cascada img{
+	width: 600px;
+}
+
+#cascada .btn{
+	background-color: var(--color-marca);
+}
+
+
+#loco{
+	padding: 50px;
+	
+}
+
+#loco img{
+	width: 500px;
+}
+
+
+#moco{
+	padding: 50px;
+	
+}
+
+#moco img{
+	width: 500px;
+}
+
+
+
+footer{
+	background-color: var(--color-marca);
+	color: #fff;
+	padding: 4px 0;
+	
+}
+
+
+footer .row{
+	margin-top: 10px;
+}
+
+
+footer img{
+	width: 80px;
+	margin-left: 30px;
+}
+
+
+footer .list-inline, p{
+	
+	padding-top: 20px;
+}
+
+
+
+/*tablet*/
+
+@media (min-width:600px) and (max-width: 1200px) { 
+	#hero h1{
+		font-size: 30px;
+	}
+	
+	footer .row{
+		padding: 10px;
+	}
+	
+	
+ }
+
+
+/*celular*/
+@media (max-width: 600px) { 
+
+	#hero h1{
+		font-size: 30px;
+		
+		
+	}
+	
+	
+ }
+
+
+
+
